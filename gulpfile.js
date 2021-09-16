@@ -13,7 +13,7 @@ const newer = require('gulp-newer');
 gulp.task('browser-sync', function () {
     connect.server({}, function () {
         browserSync.init({
-            proxy: 'php_project_start.test',
+            proxy: 'php_project.test',
             port: 5500,
             ui: {
                 port: 5501
